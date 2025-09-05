@@ -1,0 +1,113 @@
+# ####################
+# Entornos Virtuales
+# ####################
+# Excluye la carpeta del entorno virtual, común en proyectos de Python
+.venv/
+venv/
+env/
+.env/
+ENV/
+*.env
+
+# #############################
+# Archivos de Datos y Modelos
+# #############################
+# Excluye archivos de pickle que contienen objetos serializados
+*.pkl
+
+# Otros formatos de datos y modelos que usualmente no se suben al repositorio
+*.data
+*.dat
+*.db
+*.sqlite3
+*.h5
+*.hdf5
+*.model
+*.joblib
+
+# ########################################
+# Archivos compilados y caches de Python
+# ########################################
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ###########################
+# Archivos de IDEs y Editores
+# ###########################
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ##########################
+# Archivos de Sistema Operativo
+# ##########################
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+*.[Dd]esktop.ini
+
+# ###################################
+# Logs y Archivos de Dependencias
+# ###################################
+*.log
+pip-wheel-metadata/
+local_settings.py
+celerybeat-schedule
+
+# ###############################
+# Archivos de Jupyter Notebook
+# ###############################
+.ipynb_checkpoints
+
+# ######################
+# Archivos de Testing
+# ######################
+.pytest_cache/
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+
+# ###################
+# Paquetes de Python
+# ###################
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ######################
+# Documentación
+# ######################
+# Sphinx
+docs/_build/
